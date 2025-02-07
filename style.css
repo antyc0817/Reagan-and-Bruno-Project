@@ -1,0 +1,478 @@
+/* ============================================
+   Base Styles & Reset
+============================================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Nunito', 'Ubuntu', Arial, sans-serif;
+    line-height: 1.6;
+    background: #fafafa;
+    color: #333;
+  }
+  
+  /* ============================================
+     HEADER & NAVIGATION
+  ============================================ */
+  .header__content {
+    background: #ffffff;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .header__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo__icon {
+    max-height: 50px;
+  }
+  
+  .navbar__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .navbar__col {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar__col:hover {
+    color: #4ECDC4;
+  }
+  
+  .navbar__icon {
+    margin-left: 0.5rem;
+    width: 12px;
+    height: 12px;
+  }
+  
+  /* ============================================
+     HERO SECTION
+  ============================================ */
+  .hero__row {
+    position: relative;
+    width: 100%;
+  }
+  
+  .hero__col {
+    position: relative;
+  }
+  
+  .banner__image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Here we assume the banner boxes overlay the image. Adjust
+     positions if you want them arranged differently. */
+  .banner__box {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0,0,0,0.6);
+    padding: 10px 20px;
+    margin-bottom: 10px;
+  }
+  
+  .banner__box--text {
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  
+  /* ============================================
+     INTRODUCTION SECTION
+  ============================================ */
+  .introduction__row {
+    padding: 2rem;
+    text-align: center;
+    background: #f0f0f0;
+  }
+  
+  .introduction__text {
+    font-size: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .metrolics__highlight {
+    color: #4ECDC4;
+    font-weight: bold;
+  }
+  
+  /* ============================================
+     WHAT WE DO SECTION
+  ============================================ */
+  .whatwedo__row {
+    padding: 2rem;
+    background: #ffffff;
+  }
+  
+  .whatwedo__col {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .offers__heading {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .offers__subheading {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .service_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .service__col {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 5px;
+    max-width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .service__content {
+    margin-bottom: 1rem;
+  }
+  
+  .service__name {
+    font-size: 1.5rem;
+    color: #4ECDC4;
+    margin-bottom: 0.5rem;
+  }
+  
+  .service__icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  /* ============================================
+     WHAT'S UP LATELY (BLOG) SECTION
+  ============================================ */
+  .whatsup__row {
+    padding: 2rem;
+    background: #f0f0f0;
+  }
+  
+  .whatsup__col {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .events__heading {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .events__subheading {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .blog__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .blog__col {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .blog-item__date {
+    background: #c04d4d;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+  }
+  
+  .blog-date__heading {
+    font-size: 1.5rem;
+  }
+  
+  .blog-date__subtitle {
+    font-size: 0.9rem;
+  }
+  
+  .blog-item__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .blog-item__heading {
+    font-size: 1.2rem;
+    color: #4ECDC4;
+    margin-bottom: 0.5rem;
+  }
+  
+  .blog-item__subtitle {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .blog-item__icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* ============================================
+     PORTFOLIO SECTION
+  ============================================ */
+  .portfolio__row {
+    padding: 2rem;
+    background: #fff;
+  }
+  
+  .portfolio__col {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .portfolio__heading {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .portfolio__subheading {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .work__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+  
+  .work__col {
+    width: calc(33.33% - 1rem);
+    max-width: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  /* ============================================
+     REVIEWS / CLIENTS SECTION
+  ============================================ */
+  .reviews__row {
+    padding: 2rem;
+    background: #f0f0f0;
+  }
+  
+  .reviews__col {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .reviews__heading {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .reviews__subheading {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .clients__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .clients__col {
+    flex: 1 1 100px;
+    max-width: 150px;
+    padding: 1rem;
+  }
+  
+  .clients__logo {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* ============================================
+     FOOTER
+  ============================================ */
+  .footer__row {
+    background-color: #2D3E50;
+    color: #fff;
+    padding: 3rem 2rem;
+  }
+  
+  .footer__col {
+    max-width: 900px;
+    margin: 0 auto 2rem;
+    text-align: center;
+  }
+  
+  .footer-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-profile__img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-profile__text {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  /* Footer Inner Sections */
+  .footer__row > section,
+  .footer__row > div > section {
+    margin-bottom: 2rem;
+  }
+  
+  .footer-aboutus__col,
+  .footer-instagram__col,
+  .footer-news__col,
+  .footer-trackus__row {
+    margin-bottom: 2rem;
+  }
+  
+  .footer__heading,
+  .footer-news__heading,
+  .footer-trackus__heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #F1C40F;
+  }
+  
+  .footer__content {
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
+  .footer__content--highlight {
+    color: #4ECDC4;
+  }
+  
+  .footer-instagram__img {
+    width: 60px;
+    height: 60px;
+    margin: 0.5rem;
+    border-radius: 5px;
+  }
+  
+  .footer-trackus__row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  
+  .footer-trackus__col--empty {
+    flex: 1;
+  }
+  
+  .footer-trackus__col {
+    flex: 2;
+  }
+  
+  .footer-trackus__icon {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-trackus__social a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: #4ECDC4;
+    border-radius: 50%;
+  }
+  
+  .footer-trackus__email__col {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .footer-trackus__email__col input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 3px;
+    flex: 1;
+  }
+  
+  .footer-trackus__button {
+    background: #4ECDC4;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .footer-trackus__email__icon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  /* ============================================
+     RESPONSIVE MEDIA QUERIES
+  ============================================ */
+  @media screen and (max-width: 768px) {
+    /* Make several flex containers stack vertically */
+    .service_row,
+    .blog__row,
+    .work__row,
+    .clients__row,
+    .footer-trackus__row {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .work__col {
+      width: 80%;
+    }
+    
+    .navbar__row {
+      flex-direction: column;
+    }
+  }
+  
