@@ -266,7 +266,7 @@ footer {
 .blog-item__icon {
   width: 20px;
   height: 20px;
-  margin-left: auto; /* Empurra o ícone para a direita */
+  margin-left: auto; 
 }
 
 /* ---- OUR BEST WORK ---- */ 
@@ -322,11 +322,11 @@ footer {
   margin: 0;
   color: white;
   display: flex;
-  flex-direction: column; /* Forces items to stack vertically */
+  flex-direction: column; 
 }
 
 .footer-profile {
-  order: 1; /* Keeps Profile first */
+  order: 1; 
   display: inline-flex;
   padding-top: 30px;
   margin: 0;
