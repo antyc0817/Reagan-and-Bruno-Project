@@ -1,4 +1,4 @@
-/* ------------------- GENERAL ------------------- */  
+/* General section */  
 
 html {
   color: #3B3B3B;
@@ -24,11 +24,11 @@ footer {
 }
 
 
-/* ------------------- MOBILE ------------------- */ 
+/* Mobile Section*/ 
 
 @media only screen and (max-width: 39.9375em) {
 
-/* ---- HEADER ---- */ 
+/*  Header Part */ 
 
 .header__content{
   width: 100%;
@@ -37,7 +37,7 @@ footer {
 
 .header__row {
   display: grid;
-  grid-template-columns: auto 1fr; /* First column auto-sizes to logo, second takes remaining space */
+  grid-template-columns: auto 1fr; 
   align-items: center;
   margin-bottom: 50px
 }
@@ -58,13 +58,13 @@ footer {
   font-family: "Ubuntu", sans-serif;
 }
 
-/* ---- MAIN   ---- */ 
+/* Main row */ 
 .main__row {
   padding: 0;
 }
 
 
-/* ---- HERO BANNER ---- */ 
+/* Hero Banner part */ 
 .hero__row {
     display: none;
 }
@@ -74,7 +74,7 @@ footer {
   font-size: 18px ;
 }
 
-/* ---- WHO WE ARE - INTRO ---- */ 
+/* Intro (who we are)*/ 
 
 .introduction__row {
   padding: 0;
@@ -92,7 +92,7 @@ footer {
   color: #1EAFDE;
 }
 
-/* ---- WHAT WE DO ---- */ 
+/* (waht we do) */ 
 .whatwedo__row {
   padding: 0;
 }
@@ -160,7 +160,7 @@ footer {
   color:#939393;
 }
 
-/* ---- WHATS UP LATELY ---- */ 
+/* (what up lately section) */ 
 
 .whatsup__row {
   margin-bottom: 90px;
@@ -226,7 +226,7 @@ footer {
   height: 54px; 
   background-color: #19B2DE;
   display: flex;
-  align-items: center; /* Vertically center the content */
+  align-items: center; 
   padding-left: 0;
   color: white;
   font-family: "Ubuntu", sans-serif;
@@ -269,7 +269,7 @@ footer {
   margin-left: auto; 
 }
 
-/* ---- OUR BEST WORK ---- */ 
+/* Best work */ 
 .portfolio__col {
   text-align: center;
 }
@@ -300,7 +300,7 @@ footer {
   margin-bottom: 20px;
 }
 
-/* ---- CLIENTS ---- */ 
+/* Client section part */ 
 .clients__row {
   display: none;
 }
@@ -316,7 +316,7 @@ footer {
 }
 
 
-/* ---- FOOTER ---- */ 
+/* Footer part */ 
 .footer__row {
   background-color: #0E2E4E;
   margin: 0;
@@ -339,8 +339,8 @@ footer {
   position: absolute;
   left: 118px;
   bottom: -20px;
-  width: 150px; /* Adjust width of the line */
-  height: 4px; /* Thickness of the line */
+  width: 150px; 
+  height: 4px; 
   background-color: #FFB901; 
 }
 
@@ -388,7 +388,7 @@ footer {
 
 
 .footer-news__col {
-  order: 3; /* Moves What's New on Mastodon to the end */
+  order: 3; 
   padding: 0;
   margin-bottom: 30px;
 }
@@ -406,13 +406,13 @@ footer {
   position: absolute;
   left: 0;
   bottom: -5px;
-  width: 235px; /* Adjust width of the line */
-  height: 2px; /* Thickness of the line */
+  width: 235px;
+  height: 2px; 
   background-color: #FFB901; 
 }
 
 .footer-trackus__row {
-  order: 2; /* Moves Track Us after Profile */
+  order: 2; 
   display: inline-flex;
   padding: 0;
 }
@@ -436,7 +436,7 @@ footer {
   left: 0;
   bottom: -5px;
   width: 100%;
-  height: 2px; /* Thickness of the line */
+  height: 2px; 
   background-color: #19B2DE; 
 }
 
@@ -523,11 +523,11 @@ input::placeholder {
 
 }
 
-/* ------------------- TABLET ------------------- */ 
+/*Tablet section */ 
 
 @media screen and (min-width: 40em) and
 (max-width: 63.9375em) {
-/* ---- HEADER ---- */ 
+/* Tablet header */ 
 .header__content{
   display:flex;
   flex-direction: column;
@@ -559,7 +559,7 @@ input::placeholder {
   justify-content: center;
   margin: auto 0px;
 }
-/* HOVER EFFECT  */
+/* Hover for tablet */
 .navbar__col:nth-child(1):hover{
   background-color:#F0F08C ;
   color:#0057C2;
@@ -581,7 +581,7 @@ input::placeholder {
   color:#0057C2;
 }
 
-/* HOVER END  */
+/* Hover end  */
 .navbar__col:nth-child(1){
   background-color: #25C389;
 }
@@ -598,13 +598,12 @@ input::placeholder {
   background-color: #265787;
 }
 
-/* ---- MAIN ---- */ 
+/* Main */ 
 .main__row{
   display: flex;
   flex-direction: column;
 }
-/* ---- HERO BANNER ---- */ 
-
+/* Heo banner */ 
 
 .hero__row{
 
@@ -672,7 +671,7 @@ input::placeholder {
   
 }
 
-/* ------WHO WE ARE - INTRO ------ */
+/* Intro (who we are) */
 
 .introduction__row{
   text-align: center;
@@ -692,7 +691,7 @@ input::placeholder {
   font-size: 34px ;
   margin-bottom: 20px;
 }
-/* ---- WHAT WE DO ---- */ 
+/* What we do */ 
 
 .whatwedo__row{
   display: flex;
@@ -766,7 +765,7 @@ input::placeholder {
   grid-column: 2/3;
 }
 
-/* ---- WHATS UP LATELY ---- */
+/* Whats up lately*/
 
 .whatsup__col{
   text-align: center;
@@ -922,7 +921,7 @@ input::placeholder {
   margin-right: 10px;
 }
 
-/* ---- OUR BEST WORK ---- */ 
+/* Our best work  */ 
 
 .portfolio__heading {
   font-family: "Ubuntu", sans-serif;
@@ -998,7 +997,7 @@ input::placeholder {
   grid-column: 1/2;
 }
 
-/* ---- CLIENTS ---- */ 
+/* Client section */ 
 .reviews__col{
   text-align: center;
 
@@ -1066,7 +1065,7 @@ input::placeholder {
   width: 110px;
   height: 160px;
 }
-/* ---- FOOTER ---- */ 
+/* Footer */ 
 .footer-profile__img{
   height: 120px;
   width: 160px;;
@@ -1193,7 +1192,7 @@ input::placeholder {
   position: relative;
   display: block;
   width: 100%;
-  height: 2px; /* Thickness of the line */
+  height: 2px; 
   background-color: #19B2DE; 
 }
 
@@ -1244,7 +1243,7 @@ input::placeholder {
   font-size: 12px;
   color: white;
   border: none;
-  opacity: 1; /* Ensures full opacity in some browsers */
+  opacity: 1; 
   padding: 10px;
 }
 
@@ -1285,7 +1284,7 @@ input::placeholder {
   position: relative;
   display: block;
   width: 100%;
-  height: 2px; /* Thickness of the line */
+  height: 2px; 
   background-color:#FFB901; 
 
 }
@@ -1294,11 +1293,11 @@ input::placeholder {
 }
 }
 
-/* ------------------- DESKTOP ------------------- */ 
+/* Desktop section-------- */ 
 
 @media screen and (min-width: 64em) {}
  
-/* ---- HEADER ---- */
+/* Header */
 .header__content {
   padding-left: 208px;
   padding-right: 223px;
@@ -1368,7 +1367,7 @@ input::placeholder {
 }
 
 
-/* HOVER EFFECT */
+/* Hover stuff */
 .navbar__col:nth-child(1):hover {
   background-color: #F0F08C;
   color: #0057C2;
@@ -1393,7 +1392,7 @@ input::placeholder {
   background-color: #F0F08C;
   color: #0057C2;
 }
-/*--Save--*/
+/*save*/
 
 .main__row{
   display: flex;
@@ -1401,10 +1400,10 @@ input::placeholder {
   margin: 0;
   padding: 0;
 }
-/* ---- MAIN-ENDS ---- */ 
 
 
- /* ---- HERO BANNER ---- */ 
+
+ 
   
  .hero__row{
   padding-left: 208px;
@@ -1470,11 +1469,10 @@ input::placeholder {
   font-size: 24px;
 }
 
-/*new push*/
 
 
 
- /* ------WHO WE ARE - INTRO ------ */
+ /* who we are intro */
   
  .introduction__row{
   text-align: center;
@@ -1496,10 +1494,7 @@ input::placeholder {
   font-size: 34px ;
   margin-bottom: 20px;
 }
-/* ------WHO WE ARE - INTRO ------ */
 
-/* ---- WHAT WE DO ---- */ 
-  
 .whatwedo__row{
   display: flex;
   flex-direction: column;
@@ -1562,7 +1557,7 @@ margin: 0;
   color:#939393;
 }
 
-/* ---- WHATS UP LATELY ---- */
+/* what up lately section */
 .whatsup__row {
   margin-top: 50px;
   margin-bottom: 30px;
@@ -1707,7 +1702,7 @@ margin: 0;
 .blog-item__icon {
   margin-right: 10px;
 }
-/* ---- OUR BEST WORK ---- */ 
+/* Best work */ 
 .portfolio__row {
   display: flex;
   align-items: center;
