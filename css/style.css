@@ -493,7 +493,7 @@ input::placeholder {
   font-size: 12px;
   color: white;
   border: none;
-  opacity: 1; /* Ensures full opacity in some browsers */
+  opacity: 1; 
   padding: 10px;
 }
 
