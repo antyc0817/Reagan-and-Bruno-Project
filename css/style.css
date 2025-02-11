@@ -1402,3 +1402,72 @@ input::placeholder {
   padding: 0;
 }
 /* ---- MAIN-ENDS ---- */ 
+
+
+ /* ---- HERO BANNER ---- */ 
+  
+ .hero__row{
+  padding-left: 208px;
+  padding-right: 208px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: #fcfbfb;
+  height: 400px;
+  width: 100%; 
+}
+
+.hero__col{
+  display: flex;
+  flex-direction: row;
+  background-size: cover;
+  background-position: center;
+  width: 100%; 
+  height: 288px;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+}
+
+.banner__image{
+  display: grid;
+  background-position: center;
+  height: 400px;
+  width: 100%; 
+  object-fit: cover;
+ }
+
+.banner__box{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 0px;
+  width: 3px;
+  height: auto;
+  position: absolute;
+  margin: 30px 30px;
+}
+
+.banner__box:nth-child(2) {
+  top: 20%; 
+  background-color: #DE6262;
+}
+
+.banner__box:nth-child(3) {
+  top: 40%; 
+  background-color: #186aa2;
+}
+.banner__box:last-child{
+  top: 60%;
+  background-color: #ffb701f2;
+}
+
+.banner__box--text{
+  background-color: rgba(251, 248, 248, 0.714);
+  padding: 20px;
+  text-align: right;
+  width: max-content;
+  font-size: 24px;
+}
+
+/*new push*/
