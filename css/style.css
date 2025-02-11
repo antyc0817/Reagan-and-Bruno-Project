@@ -1394,3 +1394,11 @@ input::placeholder {
   color: #0057C2;
 }
 /*--Save--*/
+
+.main__row{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+/* ---- MAIN-ENDS ---- */ 
